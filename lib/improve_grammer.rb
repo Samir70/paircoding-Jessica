@@ -1,3 +1,15 @@
+def starts_with_capital?(text)
+    return text[0].upcase == text[0]
+end
+
+def ends_with_punctuation?(text)
+    return text[-1].match(/[.?!]/) != nil
+end
+
+def good_sentence?(text)
+    return starts_with_capital?(text) && ends_with_punctuation?(text)
+end
+
 # 1. Describe the Problem
 # Put or write the user story here. Add any clarifying notes you might have.
 
