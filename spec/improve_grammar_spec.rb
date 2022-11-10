@@ -1,3 +1,5 @@
+# split single method into two helper methods
+
 require 'improve_grammer'
 
 RSpec.describe "improve grammar methods" do
